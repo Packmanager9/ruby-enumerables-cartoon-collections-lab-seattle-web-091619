@@ -27,6 +27,9 @@ while wrds[i]
 k = wrds[i].split
 
 i =1 +i
+if k.length > 4
+return true
+else
 if k.length < 4
 l = l +1
 else
