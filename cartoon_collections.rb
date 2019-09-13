@@ -55,7 +55,7 @@ def find_the_cheese (wrds)
     i = 0
   while wrds[i]
   k = wrds[i].split("")
-  
+
   puts k
   puts k.length
   i =1 +i
