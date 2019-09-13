@@ -11,7 +11,7 @@ def summon_captain_planet (pc)# code an argument here
 
 i = 0
 while pc[i]
-  pc[i].capitalize()
+  pc[i].mb_chars.capitalize.to_s
 pc[i] =  pc[i]+"!"
 i=i+1
 end
