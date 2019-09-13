@@ -32,7 +32,7 @@ while wrds[i]
 k = wrds[i].split
 if k.length > 4
 false
-i++
+i =1 +i
 end
 
 
