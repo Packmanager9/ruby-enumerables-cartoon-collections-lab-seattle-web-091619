@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet (pc)# code an argument here
 pc.capitalize
-  
+
   # Your code here
 end
 
