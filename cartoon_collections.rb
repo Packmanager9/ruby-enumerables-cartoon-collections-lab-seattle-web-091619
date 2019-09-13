@@ -19,13 +19,7 @@ end
 pc
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
-
-  true
-end
-
-def find_the_cheese(wrds=[])# code an argument here
+def long_planeteer_calls(wrds=[])# code an argument here
 
   i = 0
 while wrds[i]
@@ -40,6 +34,9 @@ end
 
 
 end
+end
+
+def find_the_cheese
 
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
