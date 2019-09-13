@@ -62,7 +62,7 @@ def find_the_cheese (wrds)
   if k == 'cheddar' || k == 'gouda' || k == 'camenbert'
    return k
  else
-  
+
  end
 end
   # the array below is here to help
