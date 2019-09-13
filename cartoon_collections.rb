@@ -27,7 +27,7 @@ while wrds[i]
 k = wrds.split
 puts k[i].length
 i =1 +i
-if k[i].size > 4
+if k[i].length > 4
 return true
 end
 if k[i].length < 4
