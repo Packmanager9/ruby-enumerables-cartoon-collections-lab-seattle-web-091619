@@ -24,7 +24,7 @@ j = 0
 l = 0
   i = 0
 while wrds[i]
-k = wrds.split
+k = wrds.split("")
 puts k[i].size
 i =1 +i
 if k[i].size > 4
