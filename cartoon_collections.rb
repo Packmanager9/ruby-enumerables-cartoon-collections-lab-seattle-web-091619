@@ -62,9 +62,10 @@ def find_the_cheese (wrds)
   if k == 'cheddar' || k == 'gouda' || k == 'camenbert'
    return k
  else
-   return nil
+  
  end
 end
   # the array below is here to help
 #  cheese_types = ["cheddar", "gouda", "camembert"]
+ return nil
 end
