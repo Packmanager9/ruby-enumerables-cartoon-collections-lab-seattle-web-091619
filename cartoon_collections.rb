@@ -8,9 +8,10 @@ end
 end
 
 def summon_captain_planet (pc)# code an argument here
-pc.capitalize
+
 i = 0
 while pc[i]
+  pc[i].capitalize
 pc[i] =  pc[i]+"!"
 i=i+1
 end
