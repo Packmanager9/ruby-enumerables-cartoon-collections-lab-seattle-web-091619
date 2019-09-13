@@ -7,7 +7,9 @@ i=i+1
 end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet (pc)# code an argument here
+pc.capitalize
+  
   # Your code here
 end
 
