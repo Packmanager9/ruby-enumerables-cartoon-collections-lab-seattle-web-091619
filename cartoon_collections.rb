@@ -58,9 +58,9 @@ def find_the_cheese (wrds)
   puts k.length
   i =1 +i
   if k == "cheddar" || k == "gouda" || k == "camenbert"
-   return true
+   return k
  else
-   return false
+   return nil
  end
 end
   # the array below is here to help
