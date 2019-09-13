@@ -11,12 +11,7 @@ def summon_captain_planet (pc)# code an argument here
 
 i = 0
 while pc[i]
-
-  pc.collect do |word|
-  letters = word.split('')
-  letters.first.upcase!
-  letters.join
-end
+  pc[i] = pc[i].capitalize()
 pc[i] =  pc[i]+"!"
 i=i+1
 end
