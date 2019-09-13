@@ -9,7 +9,11 @@ end
 
 def summon_captain_planet (pc)# code an argument here
 pc.capitalize
-
+i = 0
+while pc[i]
+puts  ar[i]+"!"
+i=i+1
+end
   # Your code here
 end
 
