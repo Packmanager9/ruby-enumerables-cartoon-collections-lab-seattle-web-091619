@@ -2,7 +2,7 @@ def roll_call_dwarves (ar)# code an argument here
   # Your code here
   i = 0
 while ar[i]
-puts ar[i]
+puts "#{i} " + ar[i]
 i=i+1
 end
 end
