@@ -30,9 +30,10 @@ def find_the_cheese(wrds)# code an argument here
   i = 0
 while wrds[i]
 k = wrds[i].split
+
+i =1 +i
 if k.length > 4
 false
-i =1 +i
 end
 
 
