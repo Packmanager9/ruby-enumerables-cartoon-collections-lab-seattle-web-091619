@@ -20,7 +20,7 @@ pc
 end
 
 def long_planeteer_calls(wrds=[])# code an argument here
-
+j = 0
   i = 0
 while wrds[i]
 k = wrds[i].split
@@ -29,8 +29,13 @@ i =1 +i
 if k.length < 4
 return false
 else
+  j = j+1
+end
+
+if wrds.length == j
   return true
 end
+
 
 
 end
