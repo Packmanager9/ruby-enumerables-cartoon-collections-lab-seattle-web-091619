@@ -30,7 +30,7 @@ i =1 +i
 if k.length > 4
 return true
 end
-if k.length < 4
+if k.length <= 4
 l = l +1
 else
   j = j+1
