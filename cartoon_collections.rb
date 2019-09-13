@@ -27,9 +27,9 @@ k = wrds[i].split
 
 i =1 +i
 if k.length < 4
-false
+return false
 else
-  true
+  return true
 end
 
 
