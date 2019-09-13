@@ -25,7 +25,18 @@ def long_planeteer_calls# code an argument here
   true
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(wrds)# code an argument here
+  
+  i = 0
+while wrds[i]
+k = wrds[i].split 
+if k.length > 4
+false
+end
+
+
+end
+  
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
