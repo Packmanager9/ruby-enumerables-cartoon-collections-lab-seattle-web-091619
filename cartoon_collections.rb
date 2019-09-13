@@ -25,12 +25,12 @@ l = 0
   i = 0
 while wrds[i]
 k = wrds.split
-puts k[i].size
+puts k[i].length
 i =1 +i
-if k.size > 4
+if k[i].size > 4
 return true
 end
-if k[i].size < 4
+if k[i].length < 4
 l = l +1
 else
   j = j+1
