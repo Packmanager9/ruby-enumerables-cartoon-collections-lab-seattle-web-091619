@@ -57,7 +57,7 @@ def find_the_cheese (wrds)
   k = wrds[i].split("")
   puts k.length
   i =1 +i
-  if k == "Cheddar" || k == "Gouda" || k == "Camenbert"
+  if k == "cheddar" || k == "gouda" || k == "camenbert"
    return true
  else
    return false
