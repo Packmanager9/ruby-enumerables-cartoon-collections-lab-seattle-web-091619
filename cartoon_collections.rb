@@ -37,6 +37,10 @@ if j > 0
   return true
 end
 
+if l == wrds.length
+  return false
+end
+
 
 
 end
